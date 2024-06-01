@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ABOUT THE COLOR */
+/* The color of the navigation bar was added on the first div of the navigation bar  */
+/* Learn how to edit the color here https://materializecss.com/color.html */
+
+.logo {
+    margin-left: 55px;
+    font-size: 22px;
+}
+
+.links span {
+    display: block;
+}
+
+.profile-pic {
+    margin-left: 50px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 5px;
+}
+
+.top-hr {
+    margin-top: 20px;
+}
+
+.listing li {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+li {
+    list-style-type: disc;
+}
+
+.ex-header h6 {
+    font-weight: 500;
+}
+
+.ex-header p {
+    font-style: italic;
+}
+
+.skills-bar {
+    max-width: 300px;
+    margin-top: 50px;
+}
+
+.skills-bar span {
+    font-weight: bold;
+}
+
+.project {
+    margin-top: 10px;
+}
+
+.project-img {
+    width: 300px;
+    height: 200px;
+}
