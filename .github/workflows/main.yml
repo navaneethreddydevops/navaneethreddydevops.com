@@ -25,4 +25,4 @@ jobs:
       - name: Sts GetCallerIdentity
         run: aws sts get-caller-identity
       - name: Deploy static site to S3 bucket
-        run: aws s3 sync . s3://navaneethreddydevops.com/ --delete
+        run: aws s3 sync . s3://navaneethreddydevops.com/ --delete --exclude ".*" --exclude "*/.*"
