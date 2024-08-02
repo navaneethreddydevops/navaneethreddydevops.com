@@ -37,32 +37,6 @@ body.dark-theme header {
     padding: 0 20px;
 }
 
-.logo {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo i {
-    height: 45px;
-    width: 45px;
-    background-color: #007ced;
-    border-radius: 50%;
-    color: #fff;
-    font-weight: 700;
-    font-size: 1.5rem;
-    padding: 10px;
-    margin-right: 5px;
-    cursor: pointer;
-    text-align: center;
-}
-
-.logo .logo-text {
-    font-size: 24px;
-    font-weight: 500;
-    color: #fff;
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -305,7 +279,7 @@ body.dark-theme .hero-text p {
     cursor: pointer;
     font-size: 1.5rem;
     color: #fff;
-    margin-left: 1rem;
+    margin-left: 60rem;
 }
 
 body.dark-theme .theme-toggle {
