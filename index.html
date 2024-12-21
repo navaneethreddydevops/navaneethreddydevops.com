@@ -8,27 +8,35 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Navaneeth Reddy - Senior DevOps Engineer">
+    <meta name="description"
+        content="Senior DevOps Engineer specializing in cloud technologies, automation, and infrastructure management.">
 </head>
 
-<body>
-    <header>
+<body class="dark-theme">
+    <header class="header">
         <div class="wrapper">
-            <nav>
-                <div class="togglebtn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+            <nav class="navbar">
+                <div class="nav-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
-                <ul class="navlinks">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact Me</a></li>
                 </ul>
-                <div class="theme-toggle" id="theme-toggle">
-                    <i class="fa-solid fa-moon"></i>
-                </div>
             </nav>
         </div>
     </header>
@@ -39,76 +47,166 @@
                 <div class="hero-pic">
                     <img src="images/main_photo.png" alt="profile pic">
                 </div>
-                <div class="hero-text">
-                    <h5>Hi I'm <span class="input">Sr DevOps Engineer</span></h5>
-                    <h1>Navaneeth Reddy</h1>
-                    <p>A Senior DevOps Engineer oversees the seamless integration of development and operations,
-                        ensuring efficient, reliable, and scalable software systems...</p>
-                    <div class="btn-group">
-                        <a href="resume/Resume_Navaneeth_Reddy_2024.pdf" class="btn active" download>Download CV</a>
-                        <a href="#contact" class="btn">Contact</a>
-                    </div>
-                    <div class="social">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h5>Hi I'm <span class="input">Senior DevOps Engineer</span></h5>
+                        <h1>Navaneeth Reddy</h1>
+                        <p>A Senior DevOps Engineer with expertise in seamlessly integrating development and operations,
+                            ensuring efficient, reliable, and scalable software systems that drive business success.</p>
+                        <div class="btn-group">
+                            <a href="resume/Resume_Navaneeth_Reddy_2024.pdf" class="btn active" download>Download CV</a>
+                            <a href="#contact" class="btn">Contact Me</a>
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="section portfolio">
+    <section id="about" class="section about">
         <div class="wrapper">
-            <div class="hero-text" data-aos="fade-up">
-                <h1>Portfolio</h1>
-                <p>Here are some of my recent works and projects...</p>
-                <!-- Add your portfolio items here -->
+            <div class="section-header" data-aos="fade-up">
+                <h2>About Me</h2>
+                <p>Senior DevOps Engineer with expertise in cloud technologies and automation</p>
+            </div>
+            <div class="about-content" data-aos="fade-up">
+                <p>I am a seasoned DevOps Engineer with extensive experience in cloud technologies, automation, and
+                    infrastructure management. Currently working at Fidelity Investments, I specialize in:</p>
+                <ul>
+                    <li>Cloud Infrastructure (AWS, Azure)</li>
+                    <li>Container Orchestration (Kubernetes, Docker)</li>
+                    <li>CI/CD Implementation</li>
+                    <li>Infrastructure as Code (Terraform)</li>
+                </ul>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>Master's Degree – Computer and Information Sciences</h4>
+                        <p>Southern New Hampshire University (2017)</p>
+                        <p>GPA: 3.86/4.0</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Bachelor's Degree – Electronics and Communication Engineering</h4>
+                        <p>Jawaharlal Nehru Technological University (2014)</p>
+                        <p>GPA: 3.82/4.0</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="resume" class="section resume">
+    <section id="skills" class="section skills">
         <div class="wrapper">
-            <div class="hero-text" data-aos="fade-up">
-                <h1>Resume</h1>
-                <p>Here is my professional experience and educational background...</p>
-                <embed src="resume/Resume_Navaneeth_Reddy_2023.pdf" width="100%" height="600px" type="application/pdf">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Skills & Expertise</h2>
+                <p>Professional skills and technical expertise</p>
+            </div>
+            <div class="skills-content" data-aos="fade-up">
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-items">
+                        <span>AWS</span>
+                        <span>Azure</span>
+                        <span>Kubernetes</span>
+                        <span>Docker</span>
+                        <span>Terraform</span>
+                        <span>Jenkins</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-items">
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>Shell Scripting</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <span>Git</span>
+                        <span>Ansible</span>
+                        <span>Chef</span>
+                        <span>Maven</span>
+                        <span>JIRA</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="blog" class="section blog">
+    <section id="projects" class="section projects">
         <div class="wrapper">
-            <div class="hero-text" data-aos="fade-up">
-                <h1>Blog</h1>
-                <p>Read my latest articles and thoughts on DevOps and technology...</p>
-                <!-- Add your blog posts here -->
+            <div class="section-header" data-aos="fade-up">
+                <h2>Projects</h2>
+                <p>Key projects and implementations</p>
+            </div>
+            <div class="projects-content" data-aos="fade-up">
+                <div class="project-card">
+                    <h3>AWS EKS Migration</h3>
+                    <p>Successfully migrated containerized micro-services from ECS to EKS, implementing Helm charts and
+                        ensuring zero downtime deployment.</p>
+                    <div class="tech-stack">
+                        <span>Kubernetes</span>
+                        <span>Helm</span>
+                        <span>AWS</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Azure Cloud Infrastructure</h3>
+                    <p>Designed and implemented robust Azure infrastructure using Terraform, including Virtual Networks,
+                        Security Groups, and automated deployment pipelines.</p>
+                    <div class="tech-stack">
+                        <span>Azure</span>
+                        <span>Terraform</span>
+                        <span>DevOps</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>CI/CD Pipeline Optimization</h3>
+                    <p>Developed and optimized CI/CD pipelines using Jenkins and GitLab, reducing deployment time by 40%
+                        and improving reliability.</p>
+                    <div class="tech-stack">
+                        <span>Jenkins</span>
+                        <span>GitLab</span>
+                        <span>Python</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contact" class="section contact">
         <div class="wrapper">
-            <div class="hero-text" data-aos="fade-up">
-                <h1>Contact</h1>
-                <p>Get in touch with me for any queries or collaboration opportunities...</p>
+            <div class="contact-header" data-aos="fade-up">
+                <h1>Contact Me</h1>
+                <p>Let's connect! Reach out for collaboration opportunities or any queries you may have.</p>
+            </div>
+            <div class="contact-form" data-aos="fade-up">
                 <form>
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
                     </div>
                     <div class="form-group">
                         <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <textarea id="message" name="message" rows="5" placeholder="Type your message here..."
+                            required></textarea>
                     </div>
-                    <button type="submit" class="btn">Send Message</button>
+                    <button type="submit" class="btn submit-btn">Send Message</button>
                 </form>
             </div>
         </div>
@@ -117,12 +215,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-        var togglebtn = document.querySelector(".togglebtn");
-        var nav = document.querySelector(".navlinks");
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelectorAll('.nav-link');
 
-        togglebtn.addEventListener("click", function () {
-            this.classList.toggle("click");
-            nav.classList.toggle("open");
+        // Toggle mobile menu
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a nav link
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Add active class to nav links on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - sectionHeight / 3)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
         });
 
         var typed = new Typed(".input", {
@@ -142,18 +272,6 @@
         });
 
         AOS.init();
-
-        const themeToggle = document.querySelector('#theme-toggle');
-        const body = document.body;
-
-        themeToggle.addEventListener('click', () => {
-            body.classList.toggle('dark-theme');
-            if (body.classList.contains('dark-theme')) {
-                themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
-            } else {
-                themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
-            }
-        });
     </script>
 </body>
 
